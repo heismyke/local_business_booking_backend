@@ -107,7 +107,7 @@ This project is licensed under the **MIT License**.
 
 ## **Contact**  
 👤 **Author:** [heismyke](https://github.com/heismyke)  
-📧 **Email:** 81974207+heismyke@users.noreply.github.com  
+📧 **Email:** mickienorman5@gmail.com  
 
 ---
 
