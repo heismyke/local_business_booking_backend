@@ -113,6 +113,4 @@ This project is licensed under the **MIT License**.
 
 ### **🚀 Let's revolutionize local business bookings!**  
 
----
 
-This README provides a **clear structure**, making it easy for contributors and users to understand your project. 🚀 Let me know if you need modifications!
