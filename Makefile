@@ -5,10 +5,10 @@ createdb:
 dropdb:
 		docker exec -it postgres17 dropdb street_business
 migrateup:
-		migrate -path db/migration -database "postgresql://root:secret@localhost:5432/street_business?sslmode=disable" --verbose up
+		migrate -path ./internal/db/migration -database "postgresql://root:secret@localhost:5432/street_business?sslmode=disable" --verbose up
 migratedown:
-	migrate -path db/migration -database "postgresql://root:secret@localhost:5432/street_business?sslmode=disable" force 1
-	migrate -path db/migration -database "postgresql://root:secret@localhost:5432/street_business?sslmode=disable" --verbose down
+	migrate -path ./internal/db/migration -database "postgresql://root:secret@localhost:5432/street_business?sslmode=disable" force 1
+	migrate -path ./internal/db/migration -database "postgresql://root:secret@localhost:5432/street_business?sslmode=disable" --verbose down
 sqlc:
 		sqlc generate
 test:
